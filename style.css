@@ -85,7 +85,7 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-back .2s;
+  animation: slide-back 0.2s;
 }
 
 #switch button:hover {
@@ -133,6 +133,15 @@ ul li a {
   font-weight: 500;
   transition: background 0.2s;
 }
+ul li {
+height: 82px;
+}
+
+ul li iframe {
+
+  width: 100%;
+}
+
 
 /* pseudo-selector */
 
@@ -190,7 +199,7 @@ footer {
   from {
     left: 0;
   }
-  to{
+  to {
     left: 50%;
   }
 }
